@@ -24,7 +24,7 @@ erDiagram
     ORGANIZATIONS {
         int organization_id PK "unique, not null"
         string organization_name "not null"
-        string details "not null"
+        string organization_body "not null"
         string link "allow null"
     }
     MID_ORG_TAG {

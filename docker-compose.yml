@@ -1,0 +1,63 @@
+version: "3.8"
+
+services:
+  moyatto_be:
+    container_name: go
+    build:
+      context: .
+      dockerfile: build/app/Dockerfile
+    tty: true
+    ports:
+      - 8080:8080
+    env_file:
+      - ./build/db/.env
+    depends_on:
+      - db
+    volumes:
+      - type: bind
+        source: .
+        target: /go/app
+    networks:
+      - golang_test_network
+
+  db:
+    container_name: db
+    build:
+      context: ./build/db
+      dockerfile: Dockerfile
+    platform: linux/x86_64
+    tty: true
+    ports:
+      - 3306:3306
+    env_file:
+      - ./build/db/.env
+    volumes: 
+      - type: volume
+        source: mysql-data
+        target: /var/lib/mysql
+      - type: bind
+        source: ./build/db/init
+        target: /docker-entrypoint-initdb.d
+      - type: bind
+        source: ./build/db/conf/my.cnf
+        target: /etc/mysql/conf.d/my.cnf
+    environment:
+      TZ: "Asia/Tokyo"
+    networks:
+      - golang_test_network
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8081:8080
+    networks:
+      - golang_test_network
+
+volumes:
+  mysql-data:
+    name: mysql-volume
+
+networks:
+  golang_test_network:
+    external: true
