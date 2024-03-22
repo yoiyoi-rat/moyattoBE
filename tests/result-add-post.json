@@ -1,0 +1,218 @@
+{
+    "Posts": [
+        {
+            "Id": 16,
+            "UserName": "かなこ",
+            "PostBody": "暴言、暴力、もやもや",
+            "CreatedAt": "2024-03-22T16:35:00Z",
+            "Tags": [
+                {
+                    "Id": 16,
+                    "TagBody": "もやもや"
+                },
+                {
+                    "Id": 2,
+                    "TagBody": "暴力"
+                },
+                {
+                    "Id": 1,
+                    "TagBody": "暴言"
+                }
+            ]
+        },
+        {
+            "Id": 1,
+            "UserName": "はなこ",
+            "PostBody": "暴言、暴力",
+            "CreatedAt": "2024-03-22T16:34:38Z",
+            "Tags": [
+                {
+                    "Id": 2,
+                    "TagBody": "暴力"
+                },
+                {
+                    "Id": 1,
+                    "TagBody": "暴言"
+                }
+            ]
+        },
+        {
+            "Id": 12,
+            "UserName": "かなこ",
+            "PostBody": "暴言、暴力、いじめ、しんどい",
+            "CreatedAt": "2024-03-22T16:34:38Z",
+            "Tags": [
+                {
+                    "Id": 4,
+                    "TagBody": "いじめ"
+                },
+                {
+                    "Id": 12,
+                    "TagBody": "しんどい"
+                },
+                {
+                    "Id": 2,
+                    "TagBody": "暴力"
+                },
+                {
+                    "Id": 1,
+                    "TagBody": "暴言"
+                }
+            ]
+        },
+        {
+            "Id": 2,
+            "UserName": "かなこ",
+            "PostBody": "暴言、セクシャリティ",
+            "CreatedAt": "2024-03-22T16:34:38Z",
+            "Tags": [
+                {
+                    "Id": 3,
+                    "TagBody": "セクシュアリティ"
+                },
+                {
+                    "Id": 2,
+                    "TagBody": "暴力"
+                }
+            ]
+        },
+        {
+            "Id": 11,
+            "UserName": "はなこ",
+            "PostBody": "暴力、家族、人間関係",
+            "CreatedAt": "2024-03-22T16:34:38Z",
+            "Tags": [
+                {
+                    "Id": 11,
+                    "TagBody": "人間関係"
+                },
+                {
+                    "Id": 5,
+                    "TagBody": "家族"
+                },
+                {
+                    "Id": 2,
+                    "TagBody": "暴力"
+                }
+            ]
+        }
+    ],
+    "Organizations": [
+        {
+            "Id": 1,
+            "OrganizationName": "DV相談プラス",
+            "OrganizationBody": "パートナーや恋人から受けている様々な暴力（DV）について、専門の相談員が一緒に考えます。相談方法は電話・メール(24時間受付)、チャット(12:00～22:00)が選べます。",
+            "Link": "https://soudanplus.jp/",
+            "Tags": [
+                {
+                    "Id": 7,
+                    "TagBody": "お金"
+                },
+                {
+                    "Id": 3,
+                    "TagBody": "セクシュアリティ"
+                },
+                {
+                    "Id": 11,
+                    "TagBody": "人間関係"
+                },
+                {
+                    "Id": 2,
+                    "TagBody": "暴力"
+                },
+                {
+                    "Id": 1,
+                    "TagBody": "暴言"
+                }
+            ]
+        },
+        {
+            "Id": 2,
+            "OrganizationName": "24時間子供SOSダイヤル",
+            "OrganizationBody": "いじめで困ったり、自分や友人の安全に不安があったりしたら、ひとりで悩まず、いつでもすぐ電話で相談してください。(24時間対応)",
+            "Link": "https://www.mext.go.jp/ijime/detail/dial.html",
+            "Tags": [
+                {
+                    "Id": 4,
+                    "TagBody": "いじめ"
+                },
+                {
+                    "Id": 7,
+                    "TagBody": "お金"
+                },
+                {
+                    "Id": 12,
+                    "TagBody": "しんどい"
+                },
+                {
+                    "Id": 3,
+                    "TagBody": "セクシュアリティ"
+                },
+                {
+                    "Id": 11,
+                    "TagBody": "人間関係"
+                },
+                {
+                    "Id": 8,
+                    "TagBody": "健康"
+                },
+                {
+                    "Id": 6,
+                    "TagBody": "勉強"
+                },
+                {
+                    "Id": 10,
+                    "TagBody": "学校"
+                },
+                {
+                    "Id": 5,
+                    "TagBody": "家族"
+                },
+                {
+                    "Id": 2,
+                    "TagBody": "暴力"
+                },
+                {
+                    "Id": 1,
+                    "TagBody": "暴言"
+                },
+                {
+                    "Id": 13,
+                    "TagBody": "疲れた"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "OrganizationName": "子どもの人権SOSeメール",
+            "OrganizationBody": "以下のような相談に応じます。\n「いじめを受けて学校に行きたくない」\n「先生から体罰を受けている」\n「親から虐待されている」\nなど。",
+            "Link": "https://www.jinken.go.jp/soudan/PC_CH/0101.html",
+            "Tags": [
+                {
+                    "Id": 4,
+                    "TagBody": "いじめ"
+                },
+                {
+                    "Id": 11,
+                    "TagBody": "人間関係"
+                },
+                {
+                    "Id": 10,
+                    "TagBody": "学校"
+                },
+                {
+                    "Id": 5,
+                    "TagBody": "家族"
+                },
+                {
+                    "Id": 2,
+                    "TagBody": "暴力"
+                },
+                {
+                    "Id": 1,
+                    "TagBody": "暴言"
+                }
+            ]
+        }
+    ]
+}

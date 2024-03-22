@@ -1,0 +1,298 @@
+[
+    {
+        "Id": 1,
+        "OrganizationName": "DV相談プラス",
+        "OrganizationBody": "パートナーや恋人から受けている様々な暴力（DV）について、専門の相談員が一緒に考えます。相談方法は電話・メール(24時間受付)、チャット(12:00～22:00)が選べます。",
+        "Link": "https://soudanplus.jp/",
+        "Tags": [
+            {
+                "Id": 7,
+                "TagBody": "お金"
+            },
+            {
+                "Id": 3,
+                "TagBody": "セクシュアリティ"
+            },
+            {
+                "Id": 11,
+                "TagBody": "人間関係"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            }
+        ]
+    },
+    {
+        "Id": 2,
+        "OrganizationName": "24時間子供SOSダイヤル",
+        "OrganizationBody": "いじめで困ったり、自分や友人の安全に不安があったりしたら、ひとりで悩まず、いつでもすぐ電話で相談してください。(24時間対応)",
+        "Link": "https://www.mext.go.jp/ijime/detail/dial.html",
+        "Tags": [
+            {
+                "Id": 4,
+                "TagBody": "いじめ"
+            },
+            {
+                "Id": 7,
+                "TagBody": "お金"
+            },
+            {
+                "Id": 12,
+                "TagBody": "しんどい"
+            },
+            {
+                "Id": 3,
+                "TagBody": "セクシュアリティ"
+            },
+            {
+                "Id": 11,
+                "TagBody": "人間関係"
+            },
+            {
+                "Id": 8,
+                "TagBody": "健康"
+            },
+            {
+                "Id": 6,
+                "TagBody": "勉強"
+            },
+            {
+                "Id": 10,
+                "TagBody": "学校"
+            },
+            {
+                "Id": 5,
+                "TagBody": "家族"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            },
+            {
+                "Id": 13,
+                "TagBody": "疲れた"
+            }
+        ]
+    },
+    {
+        "Id": 3,
+        "OrganizationName": "子どもの人権SOSeメール",
+        "OrganizationBody": "以下のような相談に応じます。\n「いじめを受けて学校に行きたくない」\n「先生から体罰を受けている」\n「親から虐待されている」\nなど。",
+        "Link": "https://www.jinken.go.jp/soudan/PC_CH/0101.html",
+        "Tags": [
+            {
+                "Id": 4,
+                "TagBody": "いじめ"
+            },
+            {
+                "Id": 11,
+                "TagBody": "人間関係"
+            },
+            {
+                "Id": 10,
+                "TagBody": "学校"
+            },
+            {
+                "Id": 5,
+                "TagBody": "家族"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            }
+        ]
+    },
+    {
+        "Id": 4,
+        "OrganizationName": "相談ほっとLINE＠東京",
+        "OrganizationBody": "生きるのがつらいと感じた時の悩み相談\n対象:都内在住、在勤、在学のいずれかで、消えてしまいたいほどつらい気持ちや悩みを抱えている方",
+        "Link": "https://www.hokeniryo.metro.tokyo.lg.jp/kenkou/tokyokaigi/rinji1/linesoudan.html#cms47DE9",
+        "Tags": [
+            {
+                "Id": 12,
+                "TagBody": "しんどい"
+            },
+            {
+                "Id": 13,
+                "TagBody": "疲れた"
+            }
+        ]
+    },
+    {
+        "Id": 5,
+        "OrganizationName": "LGBT相談@東京",
+        "OrganizationBody": "LIME公式アカウントでの相談\n性自認及び性的指向に関する様々な悩みや不安について、LINEによる相談を受け付けています。\nご本人だけでなく、ご家族等からのご相談もお受けします。\n経験豊富な専門相談員がお話を伺います。\n受付時間　 月曜日・水曜日・木曜日　17時～22時（祝日・年末年始除く。）\n※受付は21時30分まで",
+        "Link": "https://www.soumu.metro.tokyo.lg.jp/10jinken/page/lgbt_soudan2.html",
+        "Tags": [
+            {
+                "Id": 3,
+                "TagBody": "セクシュアリティ"
+            }
+        ]
+    },
+    {
+        "Id": 6,
+        "OrganizationName": "東京しごとセンターヤングコーナー キャリアカウンセリング",
+        "OrganizationBody": "ヤングコーナーのカウンセリングは、自己分析を行い、適職を知ることから始まって、ビジネスマナーやコミュニケーション能力、求人への応募方法や面接についてのアドバイスなど、皆様の就職活動を全面的にサポートしています。",
+        "Link": "https://tokyoshigoto-young.jp/service",
+        "Tags": [
+            {
+                "Id": 9,
+                "TagBody": "仕事"
+            }
+        ]
+    },
+    {
+        "Id": 7,
+        "OrganizationName": "広島法務少年支援センター",
+        "OrganizationBody": "非行、犯罪行為などでのトラブルやお悩みなどの相談を受け付けています。\n対象：広島県にお住まいの方\n利用可能時間：月～金曜日 午前9時～午後0時／午後1時～5時",
+        "Link": "https://www.moj.go.jp/kyousei1/kyousei03_00039.html",
+        "Tags": [
+            {
+                "Id": 4,
+                "TagBody": "いじめ"
+            },
+            {
+                "Id": 7,
+                "TagBody": "お金"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            },
+            {
+                "Id": 14,
+                "TagBody": "非行、犯罪"
+            }
+        ]
+    },
+    {
+        "Id": 8,
+        "OrganizationName": "児童相談所全国共通ダイヤル(189)",
+        "OrganizationBody": "もし虐待をされている、または誰かがされていると思ったら、相談してください。\n通告、相談は、匿名で行うこともでき、通告、相談をした人、その内容に関する秘密は守られます。\n対象：だれでも(全国)\n利用可能時間：毎日 24時間",
+        "Link": "https://kodomoshien.cfa.go.jp/no-gyakutai/",
+        "Tags": [
+            {
+                "Id": 7,
+                "TagBody": "お金"
+            },
+            {
+                "Id": 12,
+                "TagBody": "しんどい"
+            },
+            {
+                "Id": 8,
+                "TagBody": "健康"
+            },
+            {
+                "Id": 5,
+                "TagBody": "家族"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            },
+            {
+                "Id": 13,
+                "TagBody": "疲れた"
+            }
+        ]
+    },
+    {
+        "Id": 9,
+        "OrganizationName": "いのちSOS（特定非営利活動法人 自殺対策支援センターライフリンク）",
+        "OrganizationBody": "「死にたい」「消えたい」「生きることに疲れた」など、あなたのそんな気持ちを専門の相談員が受け止め、あなたの状況を一緒に整理し、必要な支援策などについて一緒に考えます。",
+        "Link": "https://www.lifelink.or.jp/inochisos/",
+        "Tags": [
+            {
+                "Id": 12,
+                "TagBody": "しんどい"
+            },
+            {
+                "Id": 8,
+                "TagBody": "健康"
+            },
+            {
+                "Id": 13,
+                "TagBody": "疲れた"
+            }
+        ]
+    },
+    {
+        "Id": 10,
+        "OrganizationName": "消費者ホットライン（188）",
+        "OrganizationBody": "消費者ホットラインは、全国共通の電話番号で、地方公共団体が設置している身近な消費生活相談窓口を御案内いたします。",
+        "Link": "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/",
+        "Tags": [
+            {
+                "Id": 7,
+                "TagBody": "お金"
+            }
+        ]
+    },
+    {
+        "Id": 11,
+        "OrganizationName": "ひきこもり地域支援センター",
+        "OrganizationBody": "すべての都道府県・指定都市にある、行政が運営するひきこもりに特化した相談窓口です。（NPO法人などに委託しているケースもあります。）社会福祉士や精神保健福祉士などの資格を持つ支援コーディネーターが中心となって相談支援などを行います。",
+        "Link": "https://hikikomori-voice-station.mhlw.go.jp/support/",
+        "Tags": [
+            {
+                "Id": 15,
+                "TagBody": "ひきこもり"
+            },
+            {
+                "Id": 5,
+                "TagBody": "家族"
+            }
+        ]
+    },
+    {
+        "Id": 12,
+        "OrganizationName": "厚生労働省委託事業 ハラスメント悩み相談室",
+        "OrganizationBody": "以下の内容に関する悩みをメール・SNS よりご相談いただける窓口です。\n・カスタマーハラスメント（顧客等からの著しい迷惑行為）の被害相談\n・就活ハラスメント（就職活動中やインターンシップ中に受けたセクハラやパワハラ）の被害相談",
+        "Link": "https://harasu-soudan.mhlw.go.jp/",
+        "Tags": [
+            {
+                "Id": 4,
+                "TagBody": "いじめ"
+            },
+            {
+                "Id": 11,
+                "TagBody": "人間関係"
+            },
+            {
+                "Id": 9,
+                "TagBody": "仕事"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            },
+            {
+                "Id": 13,
+                "TagBody": "疲れた"
+            }
+        ]
+    }
+]

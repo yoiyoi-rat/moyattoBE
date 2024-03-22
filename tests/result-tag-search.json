@@ -1,0 +1,98 @@
+[
+    {
+        "Id": 16,
+        "UserName": "かなこ",
+        "PostBody": "暴言、暴力、もやもや",
+        "CreatedAt": "2024-03-22T11:08:20Z",
+        "Tags": [
+            {
+                "Id": 16,
+                "TagBody": "もやもや"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            }
+        ]
+    },
+    {
+        "Id": 1,
+        "UserName": "はなこ",
+        "PostBody": "暴言、暴力",
+        "CreatedAt": "2024-03-22T11:07:51Z",
+        "Tags": [
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            }
+        ]
+    },
+    {
+        "Id": 12,
+        "UserName": "かなこ",
+        "PostBody": "暴言、暴力、いじめ、しんどい",
+        "CreatedAt": "2024-03-22T11:07:51Z",
+        "Tags": [
+            {
+                "Id": 4,
+                "TagBody": "いじめ"
+            },
+            {
+                "Id": 12,
+                "TagBody": "しんどい"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            }
+        ]
+    },
+    {
+        "Id": 2,
+        "UserName": "かなこ",
+        "PostBody": "暴言、セクシャリティ",
+        "CreatedAt": "2024-03-22T11:07:51Z",
+        "Tags": [
+            {
+                "Id": 3,
+                "TagBody": "セクシュアリティ"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            }
+        ]
+    },
+    {
+        "Id": 8,
+        "UserName": "たろう",
+        "PostBody": "暴言、仕事、疲れた",
+        "CreatedAt": "2024-03-22T11:07:51Z",
+        "Tags": [
+            {
+                "Id": 9,
+                "TagBody": "仕事"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            },
+            {
+                "Id": 13,
+                "TagBody": "疲れた"
+            }
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "Id": 16,
+        "UserName": "かなこ",
+        "PostBody": "暴言、暴力、もやもや",
+        "CreatedAt": "2024-03-22T11:08:20Z",
+        "Tags": [
+            {
+                "Id": 16,
+                "TagBody": "もやもや"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            }
+        ]
+    },
+    {
+        "Id": 1,
+        "UserName": "はなこ",
+        "PostBody": "暴言、暴力",
+        "CreatedAt": "2024-03-22T11:07:51Z",
+        "Tags": [
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            }
+        ]
+    },
+    {
+        "Id": 2,
+        "UserName": "かなこ",
+        "PostBody": "暴言、セクシャリティ",
+        "CreatedAt": "2024-03-22T11:07:51Z",
+        "Tags": [
+            {
+                "Id": 3,
+                "TagBody": "セクシュアリティ"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            }
+        ]
+    },
+    {
+        "Id": 3,
+        "UserName": "たろう",
+        "PostBody": "いじめ、人間関係",
+        "CreatedAt": "2024-03-22T11:07:51Z",
+        "Tags": [
+            {
+                "Id": 4,
+                "TagBody": "いじめ"
+            },
+            {
+                "Id": 11,
+                "TagBody": "人間関係"
+            }
+        ]
+    },
+    {
+        "Id": 4,
+        "UserName": "けん",
+        "PostBody": "家族、勉強、お金、健康",
+        "CreatedAt": "2024-03-22T11:07:51Z",
+        "Tags": [
+            {
+                "Id": 7,
+                "TagBody": "お金"
+            },
+            {
+                "Id": 8,
+                "TagBody": "健康"
+            },
+            {
+                "Id": 6,
+                "TagBody": "勉強"
+            },
+            {
+                "Id": 5,
+                "TagBody": "家族"
+            }
+        ]
+    }
+]

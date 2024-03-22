@@ -1,30 +1,59 @@
 package main
 
 import (
-	"fmt"
-	"database/sql"
+	"github.com/gin-gonic/gin"
+	"github.com/yoiyoi-rat/moyattoBE/internal/api"
+	"github.com/yoiyoi-rat/moyattoBE/internal/utility"
+	"net/http"
 	"log"
-	"os"
-	_ "github.com/go-sql-driver/mysql"
 )
 
 func main() {
+	// Ginエンジンのインスタンスを作成
+	r := gin.Default()
 
-	// 環境変数から接続情報を取得
-	dbUser := os.Getenv("MYSQL_USER")
-	dbPassword := os.Getenv("MYSQL_PASSWORD")
-	dbName := os.Getenv("MYSQL_DATABASE")
-	dbHost := "db"
-	dbPort := "3306"
+	// ルートURL ("/") に対するGETリクエストをハンドル
+	r.GET("/", func(c *gin.Context) {
+		// JSONレスポンスを返す
+		c.JSON(200, gin.H{
+			"message": "Hello World",
+		})
+	})
+	// return first page posts
+	r.GET("/latest", func(c *gin.Context) {
+		var posts []utility.Post
+		api.FindLatest(&posts)
+		c.JSON(http.StatusOK, posts)
+	})
 
-	path := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=true", dbUser, dbPassword, dbHost, dbPort, dbName)
+	r.POST("/post-and-search", func(c *gin.Context) {
+		var posts_and_organizations utility.PostsAndOrganizations
+		api.PostSearch(&posts_and_organizations, c)
+		c.JSON(http.StatusOK, posts_and_organizations)
+	})
 
-	db, err := sql.Open("mysql", path)
-	if err != nil {
-		log.Fatal(err)
-		fmt.Println("--- db open failed !!! ---")
-	} else {
-		fmt.Println("--- db open scceeded !!! ---")
-	}
-	defer db.Close()
+	r.POST("/search", func(c *gin.Context) {
+		// jsonを構造体にマッピング
+		var req utility.CreateTags
+		if err := c.ShouldBindJSON(&req); err != nil {
+			log.Fatal(err)
+			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		}
+
+		// 返却用
+		var posts []utility.Post
+
+		api.TagSearch(&posts, &req)
+		c.JSON(http.StatusOK, posts)
+	})
+
+	r.GET("/organizations", func(c *gin.Context) {
+		var organizations []utility.Organization
+		api.FindAllOrganizations(&organizations)
+		c.JSON(http.StatusOK, organizations)
+	})
+
+
+	// 8080ポートでサーバーを起動
+	r.Run(":8080")
 }
