@@ -48,7 +48,7 @@ func AddPostAndSearch(posts_and_organizations *utility.PostsAndOrganizations, c 
 		log.Fatalf("failed to get posts: %v", err)
 	}
 
-	org_limit := 3
+	org_limit := 4
 	if err := utility.GetOrganizationsByTags(&posts_and_organizations.Organizations, req.Tags.StringArray(), org_limit, db); err != nil {
 		log.Fatalf("failed to get organizations: %v", err)
 	}

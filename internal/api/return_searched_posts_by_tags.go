@@ -18,7 +18,7 @@ func PostSearch(posts *[]utility.Post, req *utility.CreateTags) {
 
 	// Function to get posts based on tag frequency
 	
-	limit := 5
+	limit := 100
 	if err := utility.GetPostsByTags(posts, str_tags, limit, db); err != nil {
 		log.Fatalf("failed to get posts: %v", err)
 	}
