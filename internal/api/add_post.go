@@ -10,7 +10,7 @@ import (
 )
 
 
-func PostSearch(posts_and_organizations *utility.PostsAndOrganizations, c *gin.Context) {
+func AddPostAndSearch(posts_and_organizations *utility.PostsAndOrganizations, c *gin.Context) {
 
 	// jsonをPost構造体にマッピング
 	var req utility.CreatePost

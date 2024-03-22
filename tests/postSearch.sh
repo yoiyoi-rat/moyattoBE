@@ -9,7 +9,7 @@
 ### 変数定義
 
 # エンドポイント
-ENDPOINT="localhost:8080/search"
+ENDPOINT="localhost:8080/postsearch"
 
 # リクエストボディ(JSON形式で受け取る)
 JSON=$(cat "${1}")

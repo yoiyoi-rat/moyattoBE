@@ -6,7 +6,7 @@ import (
 	"github.com/yoiyoi-rat/moyattoBE/internal/utility"
 )
 
-func TagSearch(posts *[]utility.Post, req *utility.CreateTags) {
+func PostSearch(posts *[]utility.Post, req *utility.CreateTags) {
 
 	db := utility.DbInit()
 

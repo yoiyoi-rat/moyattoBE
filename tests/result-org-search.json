@@ -1,0 +1,210 @@
+[
+    {
+        "Id": 1,
+        "OrganizationName": "DV相談プラス",
+        "OrganizationBody": "パートナーや恋人から受けている様々な暴力（DV）について、専門の相談員が一緒に考えます。相談方法は電話・メール(24時間受付)、チャット(12:00～22:00)が選べます。",
+        "Link": "https://soudanplus.jp/",
+        "Tags": [
+            {
+                "Id": 7,
+                "TagBody": "お金"
+            },
+            {
+                "Id": 3,
+                "TagBody": "セクシュアリティ"
+            },
+            {
+                "Id": 11,
+                "TagBody": "人間関係"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            }
+        ]
+    },
+    {
+        "Id": 2,
+        "OrganizationName": "24時間子供SOSダイヤル",
+        "OrganizationBody": "いじめで困ったり、自分や友人の安全に不安があったりしたら、ひとりで悩まず、いつでもすぐ電話で相談してください。(24時間対応)",
+        "Link": "https://www.mext.go.jp/ijime/detail/dial.html",
+        "Tags": [
+            {
+                "Id": 4,
+                "TagBody": "いじめ"
+            },
+            {
+                "Id": 7,
+                "TagBody": "お金"
+            },
+            {
+                "Id": 12,
+                "TagBody": "しんどい"
+            },
+            {
+                "Id": 3,
+                "TagBody": "セクシュアリティ"
+            },
+            {
+                "Id": 11,
+                "TagBody": "人間関係"
+            },
+            {
+                "Id": 8,
+                "TagBody": "健康"
+            },
+            {
+                "Id": 6,
+                "TagBody": "勉強"
+            },
+            {
+                "Id": 10,
+                "TagBody": "学校"
+            },
+            {
+                "Id": 5,
+                "TagBody": "家族"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            },
+            {
+                "Id": 13,
+                "TagBody": "疲れた"
+            }
+        ]
+    },
+    {
+        "Id": 3,
+        "OrganizationName": "子どもの人権SOSeメール",
+        "OrganizationBody": "以下のような相談に応じます。\n「いじめを受けて学校に行きたくない」\n「先生から体罰を受けている」\n「親から虐待されている」\nなど。",
+        "Link": "https://www.jinken.go.jp/soudan/PC_CH/0101.html",
+        "Tags": [
+            {
+                "Id": 4,
+                "TagBody": "いじめ"
+            },
+            {
+                "Id": 11,
+                "TagBody": "人間関係"
+            },
+            {
+                "Id": 10,
+                "TagBody": "学校"
+            },
+            {
+                "Id": 5,
+                "TagBody": "家族"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            }
+        ]
+    },
+    {
+        "Id": 7,
+        "OrganizationName": "広島法務少年支援センター",
+        "OrganizationBody": "非行、犯罪行為などでのトラブルやお悩みなどの相談を受け付けています。\n対象：広島県にお住まいの方\n利用可能時間：月～金曜日 午前9時～午後0時／午後1時～5時",
+        "Link": "https://www.moj.go.jp/kyousei1/kyousei03_00039.html",
+        "Tags": [
+            {
+                "Id": 4,
+                "TagBody": "いじめ"
+            },
+            {
+                "Id": 7,
+                "TagBody": "お金"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            },
+            {
+                "Id": 14,
+                "TagBody": "非行、犯罪"
+            }
+        ]
+    },
+    {
+        "Id": 8,
+        "OrganizationName": "児童相談所全国共通ダイヤル(189)",
+        "OrganizationBody": "もし虐待をされている、または誰かがされていると思ったら、相談してください。\n通告、相談は、匿名で行うこともでき、通告、相談をした人、その内容に関する秘密は守られます。\n対象：だれでも(全国)\n利用可能時間：毎日 24時間",
+        "Link": "https://kodomoshien.cfa.go.jp/no-gyakutai/",
+        "Tags": [
+            {
+                "Id": 7,
+                "TagBody": "お金"
+            },
+            {
+                "Id": 12,
+                "TagBody": "しんどい"
+            },
+            {
+                "Id": 8,
+                "TagBody": "健康"
+            },
+            {
+                "Id": 5,
+                "TagBody": "家族"
+            },
+            {
+                "Id": 2,
+                "TagBody": "暴力"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            },
+            {
+                "Id": 13,
+                "TagBody": "疲れた"
+            }
+        ]
+    },
+    {
+        "Id": 12,
+        "OrganizationName": "厚生労働省委託事業 ハラスメント悩み相談室",
+        "OrganizationBody": "以下の内容に関する悩みをメール・SNS よりご相談いただける窓口です。\n・カスタマーハラスメント（顧客等からの著しい迷惑行為）の被害相談\n・就活ハラスメント（就職活動中やインターンシップ中に受けたセクハラやパワハラ）の被害相談",
+        "Link": "https://harasu-soudan.mhlw.go.jp/",
+        "Tags": [
+            {
+                "Id": 4,
+                "TagBody": "いじめ"
+            },
+            {
+                "Id": 11,
+                "TagBody": "人間関係"
+            },
+            {
+                "Id": 9,
+                "TagBody": "仕事"
+            },
+            {
+                "Id": 1,
+                "TagBody": "暴言"
+            },
+            {
+                "Id": 13,
+                "TagBody": "疲れた"
+            }
+        ]
+    }
+]

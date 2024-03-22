@@ -28,11 +28,11 @@ func main() {
 
 	r.POST("/post-and-search", func(c *gin.Context) {
 		var posts_and_organizations utility.PostsAndOrganizations
-		api.PostSearch(&posts_and_organizations, c)
+		api.AddPostAndSearch(&posts_and_organizations, c)
 		c.JSON(http.StatusOK, posts_and_organizations)
 	})
 
-	r.POST("/search", func(c *gin.Context) {
+	r.POST("/postsearch", func(c *gin.Context) {
 		// jsonを構造体にマッピング
 		var req utility.CreateTags
 		if err := c.ShouldBindJSON(&req); err != nil {
@@ -43,7 +43,7 @@ func main() {
 		// 返却用
 		var posts []utility.Post
 
-		api.TagSearch(&posts, &req)
+		api.PostSearch(&posts, &req)
 		c.JSON(http.StatusOK, posts)
 	})
 
@@ -53,6 +53,20 @@ func main() {
 		c.JSON(http.StatusOK, organizations)
 	})
 
+	r.POST("/orgssearch", func(c *gin.Context) {
+		// jsonを構造体にマッピング
+		var req utility.CreateTags
+		if err := c.ShouldBindJSON(&req); err != nil {
+			log.Fatal(err)
+			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		}
+
+		// 返却用
+		var organizations []utility.Organization
+
+		api.OrgSearch(&organizations, &req)
+		c.JSON(http.StatusOK, organizations)
+	})
 
 	// 8080ポートでサーバーを起動
 	r.Run(":8080")
