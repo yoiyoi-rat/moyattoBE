@@ -7,7 +7,6 @@ import (
 	"github.com/yoiyoi-rat/moyattoBE/internal/utility"
 )
 
-
 func FindLatest(posts *[]utility.Post) {
 
 	db := utility.DbInit()
@@ -23,7 +22,7 @@ func FindLatest(posts *[]utility.Post) {
 		log.Fatal(err)
 	}
 	// Query data
-	db.Debug().Preload("Tags").Order("created_at DESC").Limit(5).Find(&posts)
+	db.Debug().Preload("Tags").Order("created_at DESC").Find(&posts)
 
 	for _, post := range *posts {
 		fmt.Println("Post ID:", post.Id)
