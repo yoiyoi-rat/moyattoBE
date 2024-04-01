@@ -4,6 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/yoiyoi-rat/moyattoBE/internal/api"
 	"github.com/yoiyoi-rat/moyattoBE/internal/utility"
+	"github.com/yoiyoi-rat/moyattoBE/internal/middleware"
 	"net/http"
 	"log"
 )
@@ -11,6 +12,7 @@ import (
 func main() {
 	// Ginエンジンのインスタンスを作成
 	r := gin.Default()
+	r.Use(middleware.CORS())
 
 	// ルートURL ("/") に対するGETリクエストをハンドル
 	r.GET("/", func(c *gin.Context) {
