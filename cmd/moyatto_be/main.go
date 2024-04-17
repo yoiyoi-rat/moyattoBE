@@ -1,18 +1,27 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/yoiyoi-rat/moyattoBE/internal/api"
-	"github.com/yoiyoi-rat/moyattoBE/internal/utility"
-	"github.com/yoiyoi-rat/moyattoBE/internal/middleware"
-	"net/http"
+	"fmt"
 	"log"
+	"net/http"
+
+	"github.com/gin-gonic/gin"
+	"github.com/joho/godotenv"
+	"github.com/yoiyoi-rat/moyattoBE/internal/api"
+	"github.com/yoiyoi-rat/moyattoBE/internal/middleware"
+	"github.com/yoiyoi-rat/moyattoBE/internal/utility"
 )
 
 func main() {
 	// Ginエンジンのインスタンスを作成
 	r := gin.Default()
 	r.Use(middleware.CORS())
+
+	// 環境変数の読み込み
+	err := godotenv.Load("build/db/.env")
+	if err != nil {
+		fmt.Printf("failed to read .env: %v", err)
+	}
 
 	// ルートURL ("/") に対するGETリクエストをハンドル
 	r.GET("/", func(c *gin.Context) {

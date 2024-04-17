@@ -9,7 +9,7 @@
 ### 変数定義
 
 # エンドポイント
-ENDPOINT="localhost:8080/orgssearch"
+ENDPOINT="ec2-35-77-149-195.ap-northeast-1.compute.amazonaws.com:80/orgssearch"
 
 # リクエストボディ(JSON形式で受け取る)
 JSON=$(cat "${1}")

@@ -15,3 +15,5 @@ todo:
 - varchar string　エラー
 - エラー型の定義、エラーハンドリング
 - CI/CD
+- 何がmiddlewareにあたるのかを調べる
+- テストコードを整理orちゃんと調べて書き直し

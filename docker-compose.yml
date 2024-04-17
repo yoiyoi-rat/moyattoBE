@@ -9,8 +9,6 @@ services:
     tty: true
     ports:
       - 8080:8080
-    env_file:
-      - ./build/db/.env
     depends_on:
       - db
     volumes:

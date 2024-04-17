@@ -6,6 +6,10 @@ MySQL
 
 - GOPATHは古い、moduleモードを使う
 
+- ライブラリのインストール
+``` go get github.com/hoge/fuga@latest ```
+``` go install ``` はGOPATH用？グローバルインストール？要調査　少なくとも今回はいらない
+
 - goenvは使わない
 基本的に後方互換性があるため、最新バージョンを使えばよい（GopherJS, WASM, CGO）あたりは気を付けた方がいいらしい。
 また、以下の操作で任意のバージョンが使用可能
